@@ -1,0 +1,22 @@
+body {
+    font-family:Roboto;
+    margin:0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+}
+
+.header > ul {
+    font-weight: lighter;
+    list-style: none;
+    display:flex;
+    gap:8px;
+    font-size: 12px;
+}
+
