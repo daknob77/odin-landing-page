@@ -20,3 +20,42 @@ body {
     font-size: 12px;
 }
 
+
+
+.first-section {
+    display:flex;
+    background-color: #1F2937;
+    padding:120px;
+    gap:32px;
+}
+
+.first-section > .container {
+    color: white;
+}
+
+.container > .header {
+    font-size:36px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.container > .text {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.container > button {
+    padding: 5px 24px;
+    border-radius: 8px;
+}
+
+.first-section > .img-placeholder {
+    display:flex;
+    width:100%;
+    height:165px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color:white;
+}
+
