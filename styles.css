@@ -29,7 +29,6 @@ body {
     justify-content: space-around;
     gap:16px;
     color: white;
-    border:solid white;
 }
 .first-section-header {
     font-size:36px;
@@ -67,7 +66,6 @@ body {
     background-color: white;
     padding:0 150px 100px 150px;
     margin:0;
-    border:black solid;
 }
 
 .info-header{
@@ -83,7 +81,6 @@ body {
 
 .info-container {
     display:flex;
-    border-color: black solid;
     justify-content: center;
 }
 
@@ -94,7 +91,6 @@ body {
     text-align: center;
     width:200px;
     height: auto;
-    ;
 }
 
 .info-box {
@@ -107,4 +103,33 @@ body {
 .info-text {
     font-size: 12px;
     margin: 8px 0;;
+}
+
+
+.quote-section {
+    background-color: #e5e7eb;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display:flex;
+    padding:120px;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 36px;
+    gap:8px;
+    flex-basis: 50%;
+}
+
+p {
+    font-weight: 100;
+}
+
+.thor-author {
+    display:flex;
+    align-self: flex-end;
+    font-size: 24px;
 }
